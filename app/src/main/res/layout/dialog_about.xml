@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:gravity="center_horizontal"
+    android:layoutAnimation="@anim/layout_controller_slidein">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="21sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+
+        android:text="Developer- "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Naman Dwivedi "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/follow"
+        android:textColor="#ff3e82"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Follow me on Google+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="21sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="18dp"
+        android:text="Thanks to these open source projects-"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+
+        android:text="CpuSpy-Brandon Valosek \n SatStat-mvglasow \n Floating Action Button "/>
+
+
+</LinearLayout>

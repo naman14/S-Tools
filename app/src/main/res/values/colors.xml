@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#3f51b5</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f5f5f5</color>
+    <color name="list_divider">#ffffff</color>
+
+    <color name="black">#ffffff</color>
+    <color name="red">#F00</color>
+    <color name="grey">@android:color/holo_blue_light</color>
+    <color name="white">#ffffff</color>
+    <color name="skyblue">#ff33b5e5</color>
+    <color name="grassgreen">#ff99cc00</color>
+    <color name="fixcolor">#ffaa66cc</color>
+    <color name="my_fab_color">#ff3e82</color>
+
+    <color name="accHigh">#669900</color>
+    <color name="accMedium">#FF8800</color>
+    <color name="accLow">#CC0000</color>
+    <color name="accUnreliable">#9933CC</color>
+
+    <color name="theme1">@android:color/holo_blue_light</color>
+    <color name="theme2">#99cc00</color>
+    <color name="theme3">#ff4444</color>
+    <color name="theme4">#ff4081</color>
+    <color name="theme5">#009688</color>
+    <color name="theme6">#00bbd2</color>
+
+
+</resources>

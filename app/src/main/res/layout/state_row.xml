@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ui_state_row"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="9dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/card_normal"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/ui_freq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textColor="#e51c23"
+            android:layout_weight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/ui_duration_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:gravity="right"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/ui_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            style="@style/ProgressBar.Cpuorange"
+            android:max="100"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+
+
+            />
+
+        <TextView
+            android:id="@+id/ui_percentage_text"
+            android:layout_width="30dp"
+            android:textColor="#323232"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutAnimation="@anim/layout_controller_slideout"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp"
+        android:layout_height="230dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Dear User,
+ Location Tools requires GPS to be enabled and since GPS is very battery hungry,remember to turn it back off.Location and network tool is created as a different activity so that it does not interfere when using normal tools."
+        android:textColor="#f7f7f7"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <View
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        />
+
+    <com.shamanland.fab.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/header"
+        android:layout_marginBottom="@dimen/floating_action_button_margin_normal_minus"
+        app:floatingActionButtonColor="@color/my_fab_color"
+        android:src="@drawable/ic_action_tick"
+        />
+
+
+
+</RelativeLayout>

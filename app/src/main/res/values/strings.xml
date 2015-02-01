@@ -1,0 +1,387 @@
+<resources>
+    <string name="app_name">S Tools+</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+
+        <item >CPU</item>
+        <item >Sensors</item>
+        <item >Color Picker</item>
+        <item >Location</item>
+        <item >Compass</item>
+        <item >Device Info</item>
+        <item >Settings</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_cpu</item>
+        <item>@drawable/ic_sensor</item>
+        <item>@drawable/ic_color</item>
+        <item>@drawable/ic_location</item>
+        <item>@drawable/ic_compass</item>
+        <item>@drawable/ic_device</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+
+    <string name="sensor_desc_1">Device acceleration (affected by the force of gravity).</string>
+    <string name="sensor_desc_2">Ambient magnetic field.</string>
+    <string name="sensor_desc_3">Compass like sensor.</string>
+    <string name="sensor_desc_4">Gyroscope.</string>
+    <string name="sensor_desc_5">Ambient light level in SI lux units.</string>
+    <string name="sensor_desc_6">Atmospheric pressure in hPa (millibar).</string>
+    <string name="sensor_desc_8">Distance sensor (in most devices, this only reports a near or far state).</string>
+    <string name="sensor_desc_9">A three dimensional vector indicating the direction and magnitude of gravity.</string>
+    <string name="sensor_desc_10">Acceleration without the effect of gravity.</string>
+    <string name="sensor_desc_11">The rotation vector represents the orientation of the device as a combination of an angle and an axis, in which the device has rotated through an angle θ around an axis [x, y, z].</string>
+    <string name="sensor_desc_12">Relative ambient air humidity in percent.</string>
+    <string name="sensor_desc_13">Ambient (room) temperature in degree Celsius.</string>
+    <string name="lbl_vendor">Vendor</string>
+    <string name="lbl_powerconsumption">Power consumption</string>
+    <string name="lbl_sensor_resolution">Sensor resolution</string>
+    <string name="lbl_sensor_version">Version</string>
+    <string name="lbl_min_delay">Minimal delay</string>
+    <string name="lbl_range">Range</string>
+    <string name="lbl_unknown">unknown</string>
+    <string name="msg_stopped">Sampling stopped</string>
+    <string name="share">Share</string>
+    <string name="send_to">Share with</string>
+    <string name="unit_gyro">rad/s</string>
+    <string name="unit_light">lux</string>
+    <string name="unit_magnetic">µT</string>
+    <string name="unit_pressure">hPa</string>
+    <string name="unit_distance">cm</string>
+    <string name="unit_temperature">°C</string>
+    <string name="unit_acceleration">m/s²</string>
+    <string name="sensor_accuracy_high">Sensor accuracy: HIGH</string>
+    <string name="sensor_accuracy_medium">Sensor accuracy: MEDIUM</string>
+    <string name="sensor_accuracy_low">Sensor accuracy: LOW</string>
+    <string name="sensor_accuracy_unreliable">Sensor accuracy: UNRELIABLE</string>
+    <string name="channel_light">Light</string>
+    <string name="channel_distance">Distance</string>
+    <string name="channel_pressure">Pressure</string>
+    <string name="channel_temperature">Ambient room temperature</string>
+    <string name="channel_x_axis">X-Axis</string>
+    <string name="channel_y_axis">Y-Axis</string>
+    <string name="channel_z_axis">Z-Axis</string>
+    <string name="channel_azimuth">Azimuth</string>
+    <string name="channel_pitch">Pitch</string>
+    <string name="channel_roll">Roll</string>
+    <string name="channel_default">Channel</string>
+    <string name="samplerate">Samplerate: 1/%1$d ms</string>
+    <string name="unit_consumption">" mA"</string>
+    <string name="unit_mindelay">" µs"</string>
+    <string name="msg_waiting_for_sensor">Waiting for sensor to become ready</string>
+
+
+    <string name="action_canceled">Action canceled</string>
+    <string name="select_picture">Select a option</string>
+    <string name="text_view_ral">RAL:</string>
+    <string name="text_view_rgb">RGB:</string>
+    <string name="text_view_hex">HEX:</string>
+    <string name="s">HEX:</string>
+    <string name="result_color">Color</string>
+    <string-array name="color_names">
+        <item>Green beige</item>
+        <item>Beige</item>
+        <item>Sand yellow</item>
+        <item>Signal yellow</item>
+        <item>Golden yellow</item>
+        <item>Honey yellow</item>
+        <item>Maize yellow</item>
+        <item>Daffodil yellow</item>
+        <item>Brown beige</item>
+        <item>Lemon yellow</item>
+        <item>Oyster white</item>
+        <item>Ivory</item>
+        <item>Light ivory</item>
+        <item>Sulfur yellow</item>
+        <item>Saffron yellow</item>
+        <item>Zinc yellow</item>
+        <item>Grey beige</item>
+        <item>Olive yellow</item>
+        <item>Rape yellow</item>
+        <item>Traffic yellow</item>
+        <item>Ochre yellow</item>
+        <item>Luminous yellow</item>
+        <item>Curry</item>
+        <item>Melon yellow</item>
+        <item>Broom yellow</item>
+        <item>Dahlia yellow</item>
+        <item>Pastel yellow</item>
+        <item>Pearl beige</item>
+        <item>Pearl gold</item>
+        <item>Sun yellow</item>
+        <item>Yellow orange</item>
+        <item>Red orange</item>
+        <item>Vermilion</item>
+        <item>Pastel orange</item>
+        <item>Pure orange</item>
+        <item>Luminous orange</item>
+        <item>Luminous bright orange</item>
+        <item>Bright red orange</item>
+        <item>Traffic orange</item>
+        <item>Signal orange</item>
+        <item>Deep orange</item>
+        <item>Salmon range</item>
+        <item>Pearl orange</item>
+        <item>Flame red</item>
+        <item>Signal red</item>
+        <item>Carmine red</item>
+        <item>Ruby red</item>
+        <item>Purple red</item>
+        <item>Wine red</item>
+        <item>Black red</item>
+        <item>Oxide red</item>
+        <item>Brown red</item>
+        <item>Beige red</item>
+        <item>Tomato red</item>
+        <item>Antique pink</item>
+        <item>Light pink</item>
+        <item>Coral red</item>
+        <item>Rose</item>
+        <item>Strawberry red</item>
+        <item>Traffic red</item>
+        <item>Salmon pink</item>
+        <item>Luminous red</item>
+        <item>Luminous bright red</item>
+        <item>Raspberry red</item>
+        <item>Pure  red</item>
+        <item>Orient red</item>
+        <item>Pearl ruby red</item>
+        <item>Pearl pink</item>
+        <item>Red lilac</item>
+        <item>Red violet</item>
+        <item>Heather violet</item>
+        <item>Claret violet</item>
+        <item>Blue lilac</item>
+        <item>Traffic purple</item>
+        <item>Purple violet</item>
+        <item>Signal violet</item>
+        <item>Pastel violet</item>
+        <item>Telemagenta</item>
+        <item>Pearl violet</item>
+        <item>Pearl black berry</item>
+        <item>Violet blue</item>
+        <item>Green blue</item>
+        <item>Ultramarine blue</item>
+        <item>Saphire blue</item>
+        <item>Black blue</item>
+        <item>Signal blue</item>
+        <item>Brillant blue</item>
+        <item>Grey blue</item>
+        <item>Azure blue</item>
+        <item>Gentian blue</item>
+        <item>Steel blue</item>
+        <item>Light blue</item>
+        <item>Cobalt blue</item>
+        <item>Pigeon blue</item>
+        <item>Sky blue</item>
+        <item>Traffic blue</item>
+        <item>Turquoise blue</item>
+        <item>Capri blue</item>
+        <item>Ocean blue</item>
+        <item>Water blue</item>
+        <item>Night blue</item>
+        <item>Distant blue</item>
+        <item>Pastel blue</item>
+        <item>Pearl gentian blue</item>
+        <item>Pearl night blue</item>
+        <item>Patina green</item>
+        <item>Emerald green</item>
+        <item>Leaf green</item>
+        <item>Olive green</item>
+        <item>Blue green</item>
+        <item>Moss green</item>
+        <item>Grey olive</item>
+        <item>Bottle green</item>
+        <item>Brown green</item>
+        <item>Fir green</item>
+        <item>Grass green</item>
+        <item>Reseda green</item>
+        <item>Black green</item>
+        <item>Reed green</item>
+        <item>Yellow olive</item>
+        <item>Black olive</item>
+        <item>Turquoise green</item>
+        <item>May green</item>
+        <item>Yellow green</item>
+        <item>Pastel green</item>
+        <item>Chrome green</item>
+        <item>Pale green</item>
+        <item>Olive drab</item>
+        <item>Traffic green</item>
+        <item>Fern green</item>
+        <item>Opal green</item>
+        <item>Light green</item>
+        <item>Pine green</item>
+        <item>Mint green</item>
+        <item>Signal green</item>
+        <item>Mint turquoise</item>
+        <item>Pastel turquoise</item>
+        <item>Pearl green</item>
+        <item>Pearl opal green</item>
+        <item>Pure green</item>
+        <item>Luminous green</item>
+        <item>Squirrel grey</item>
+        <item>Silver grey</item>
+        <item>Olive grey</item>
+        <item>Moss grey</item>
+        <item>Signal grey</item>
+        <item>Mouse grey</item>
+        <item>Beige grey</item>
+        <item>Khaki grey</item>
+        <item>Green grey</item>
+        <item>Tarpaulin grey</item>
+        <item>Iron grey</item>
+        <item>Basalt grey</item>
+        <item>Brown grey</item>
+        <item>Slate grey</item>
+        <item>Anthracite grey</item>
+        <item>Black grey</item>
+        <item>Umbra grey</item>
+        <item>Concrete grey</item>
+        <item>Graphite grey</item>
+        <item>Granite grey</item>
+        <item>Stone grey</item>
+        <item>Blue grey</item>
+        <item>Pebble grey</item>
+        <item>Cement grey</item>
+        <item>Yellow grey</item>
+        <item>Light grey</item>
+        <item>Platinum grey</item>
+        <item>Dusty grey</item>
+        <item>Agate grey</item>
+        <item>Quartz grey</item>
+        <item>Window grey</item>
+        <item>Traffic grey A</item>
+        <item>Traffic grey B</item>
+        <item>Silk grey</item>
+        <item>Telegrey 1</item>
+        <item>Telegrey 2</item>
+        <item>Telegrey 4</item>
+        <item>Pearl mouse grey</item>
+        <item>Green brown</item>
+        <item>Ochre brown</item>
+        <item>Signal brown</item>
+        <item>Clay brown</item>
+        <item>Copper brown</item>
+        <item>Fawn brown</item>
+        <item>Olive brown</item>
+        <item>Nut brown</item>
+        <item>Red brown</item>
+        <item>Sepia brown</item>
+        <item>Chestnut brown</item>
+        <item>Mahogany brown</item>
+        <item>Chocolate brown</item>
+        <item>Grey brown</item>
+        <item>Black brown</item>
+        <item>Orange brown</item>
+        <item>Beige brown</item>
+        <item>Pale brown</item>
+        <item>Terra brown</item>
+        <item>Pearl copper</item>
+        <item>Cream</item>
+        <item>Grey white</item>
+        <item>Signal white</item>
+        <item>Signal black</item>
+        <item>Jet black</item>
+        <item>White aluminium</item>
+        <item>Grey aluminium</item>
+        <item>Pure white</item>
+        <item>Graphite black</item>
+        <item>Traffic white</item>
+        <item>Traffic black</item>
+        <item>Papyrus white</item>
+        <item>Pearl light grey</item>
+    </string-array>
+    <string name="color_name">Color name</string>
+
+
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s E</string>
+    <string name="location_west">%s W</string>
+    <string name="title_section1">GPS</string>
+    <string name="title_section3">Radio</string>
+    <string name="title_gps_lat">Latitude</string>
+    <string name="title_gps_lon">Longitude</string>
+    <string name="title_gps_decl">Decl.</string>
+    <string name="title_gps_speed">Speed</string>
+    <string name="title_gps_alt">Elevation</string>
+    <string name="title_gps_time">Last Fix Obtained</string>
+    <string name="title_gps_bear">Bearing</string>
+    <string name="title_gps_orient">Orientation</string>
+    <string name="title_gps_acc">Error</string>
+    <string name="title_gps_sats">Satellites</string>
+    <string name="title_gps_ttff">TTFF (s)</string>
+    <string name="value_none">–</string>
+    <string name="value_N">N</string>
+    <string name="value_NNE">NNE</string>
+    <string name="value_NE">NE</string>
+    <string name="value_ENE">ENE</string>
+    <string name="value_E">E</string>
+    <string name="value_ESE">ESE</string>
+    <string name="value_SE">SE</string>
+    <string name="value_SSE">SSE</string>
+    <string name="value_S">S</string>
+    <string name="value_SSW">SSW</string>
+    <string name="value_SW">SW</string>
+    <string name="value_WSW">WSW</string>
+    <string name="value_W">W</string>
+    <string name="value_WNW">WNW</string>
+    <string name="value_NW">NW</string>
+    <string name="value_NNW">NNW</string>
+
+    <string name="title_radio_gsm">GSM</string>
+    <string name="title_radio_mcc">MCC</string>
+    <string name="title_radio_mnc">MNC</string>
+    <string name="title_radio_cellid">Cell ID</string>
+    <string name="title_radio_lac">LAC</string>
+    <string name="title_radio_asu">ASU</string>
+    <string name="title_radio_cdma">CDMA</string>
+    <string name="title_radio_sid">SID</string>
+    <string name="title_radio_nid">NID</string>
+    <string name="title_radio_bsid">BSID</string>
+    <string name="title_radio_wifi">WiFi</string>
+    <string name="title_radio_mac">BSSID (MAC)</string>
+    <string name="title_radio_channel">Ch</string>
+    <string name="title_radio_level">dBm</string>
+    <string name="unit_degree">°</string>
+    <string name="unit_km_h">&#x00a0;km/h</string>
+    <string name="unit_meter">&#x00a0;m</string>
+
+    <string name="getting_location">Getting location...</string>
+    <string name="cannot_get_location">Cannot get your location</string>
+
+    <string name="keys12">no</string>
+    <string name="dpad">no</string>
+    <string name="finger">no</string>
+    <string name="keysexposed">no</string>
+    <string name="keysoft">no</string>
+    <string name="long_resource">no</string>
+    <string name="nokeys">no</string>
+    <string name="nonav">no</string>
+    <string name="notlong">no</string>
+    <string name="notouch">no</string>
+    <string name="qwerty">no</string>
+    <string name="stylus">no</string>
+    <string name="trackball">no</string>
+    <string name="wheel">no</string>
+    <string name="nodpi">no</string>
+    <string name="ldpi">no</string>
+    <string name="mdpi">no</string>
+    <string name="hdpi">no</string>
+    <string name="xhdpi">no</string>
+    <string name="pref_pdi">none</string>
+    <string name="small">no</string>
+    <string name="normal">no</string>
+    <string name="large">no</string>
+    <string name="xlarge">no</string>
+    <string name="pref_screen">none</string>
+
+</resources>
+

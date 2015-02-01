@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="color_padding">10dip</dimen>
+<dimen name="color_info_padding">24dip</dimen>
+<dimen name="five_dip">5dip</dimen>
+
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+
+    <dimen name="list_item_margin_left">5dp</dimen>
+    <dimen name="list_item_type_textsize">10sp</dimen>
+    <dimen name="list_item_values_textsize">12sp</dimen>
+    <dimen name="activity_border_small_padding">5dp</dimen>
+    <dimen name="activity_text_very_small_padding">2dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    android:paddingBottom="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutAnimation="@anim/layout_controller_slideout"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/Card">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:id="@+id/photo1"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/photo1" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:clickable="true"
+                android:id="@+id/text1"
+                android:text="Themes" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Card">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:id="@+id/photo2"
+                android:src="@drawable/photo2" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:id="@+id/text2"
+                android:clickable="true"
+                android:text="About" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Card">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:id="@+id/photo3"
+
+                android:src="@drawable/photo3" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:id="@+id/text3"
+                android:clickable="true"
+                android:text="Contact Developer" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Card">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    android:textColor="#009688"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:text="S Tools+ is completely free and Ad-Free.If you like then you can donate to me by purchasing the donate version from Google Play. I would really appreciate it."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:id="@+id/donate"
+                    android:clickable="true"
+                    android:textColor="#3f51b5"
+                    android:paddingTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:text="Buy it on Google Play"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Card">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/github"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/github"
+                        android:layout_weight="1"
+                        android:layout_gravity="left"
+                        android:paddingTop="15dp"/>
+
+                    <ImageView
+                        android:id="@+id/rate"
+                        android:layout_width="96dp"
+                        android:layout_weight="1"
+                        android:layout_height="96dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/star"
+                        android:layout_gravity="center"
+                        android:paddingTop="15dp" />
+                    <ImageView
+                        android:id="@+id/share"
+                        android:layout_width="96dp"
+                        android:layout_weight="1"
+                        android:layout_height="96dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/share"
+                        android:layout_gravity="left"
+                        android:paddingTop="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="96dp"
+                        android:layout_height="wrap_content"
+                        android:text="Source Code"
+                        android:textColor="#009688"
+                        android:textSize="20sp"
+
+                        />
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="96dp"
+                        android:layout_height="wrap_content"
+                        android:text="Rate"
+                        android:textColor="#009688"
+                        android:textSize="20sp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="96dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Share"
+                        android:gravity="center"
+                        android:textColor="#009688"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

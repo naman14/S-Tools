@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:id="@id/android:list" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/sensor_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="4px"
+        android:paddingLeft="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_sensor_unknown" />
+
+    <TextView
+        android:id="@+id/sensor_name"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@+id/sensor_icon"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:id="@+id/sensor_description"
+        android:singleLine="false"
+        android:layout_below="@id/sensor_name"
+        android:layout_toRightOf="@+id/sensor_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Unknown type"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="8dp"/>
+</RelativeLayout>
+

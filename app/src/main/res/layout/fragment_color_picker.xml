@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layoutAnimation="@anim/layout_controller_slidein"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/bg_color" />
+
+
+
+        <com.shamanland.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignBottom="@id/imageView"
+            app:floatingActionButtonColor="@color/my_fab_color"
+            android:src="@drawable/ic_action_edit_dark"
+            />
+
+        <com.shamanland.fab.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@id/imageView"
+
+            app:floatingActionButtonColor="@color/my_fab_color"
+
+
+            android:src="@drawable/ic_action_copy"
+            />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layoutAnimation="@anim/layout_controller_slideout"
+        android:background="@color/grey"
+        android:baselineAligned="true"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textViewColorName"
+            android:textSize="25sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/five_dip"
+            android:paddingLeft="@dimen/color_padding"
+            android:paddingTop="@dimen/five_dip"
+            android:text="@string/color_name"
+            android:textColor="@color/white"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="45dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="12"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/color_padding"
+            android:paddingRight="@dimen/color_padding"
+            android:paddingTop="@dimen/five_dip" >
+            <!-- android:src="@drawable/ic_launcher" -->
+
+            <ImageView
+                android:id="@+id/imageViewColor"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:contentDescription="@string/result_color" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/color_info_padding" >
+
+                <TextView
+                    android:id="@+id/textViewRal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_ral"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewRgb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_rgb"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewHex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_hex"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

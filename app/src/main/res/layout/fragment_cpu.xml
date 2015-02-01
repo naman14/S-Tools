@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#f7f7f7"
+    android:layout_height="fill_parent"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="30dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+
+            <GridLayout
+                android:id="@+id/ui_states_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:rowCount="20" >
+            </GridLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textColor="#dab849"
+                android:textSize="20dp"
+                android:background="#551111"
+                android:text="No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him that the states file is not readable."
+                android:visibility="gone"
+                android:id="@+id/ui_states_warning"
+                />
+
+
+            <TextView
+                android:id="@+id/ui_header_additional_states"
+                style="@style/infoHeader"
+                android:textSize="24sp"
+                android:visibility="gone"
+                android:textColor="#eceef7"
+                android:text="Unused CPU states"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ui_additional_states"
+                android:padding="6dp"
+                />
+
+            <TextView
+                android:id="@+id/ui_header_total_state_time"
+                style="@style/infoHeader"
+                android:textColor="#eceef7"
+                android:text="Total State Time"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#e51c23"
+                android:padding="7dp"
+
+                android:paddingLeft="16dp"
+
+                android:id="@+id/ui_total_state_time"
+
+
+                />
+
+            <TextView
+                style="@style/infoHeader"
+                android:text="Kernel  Info"
+                android:gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textColor="#eceef7"
+
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kernel"
+                android:textSize="19dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:textColor="#e51c23"
+                android:padding="10dp"
+                android:id="@+id/ui_kernel_string"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
