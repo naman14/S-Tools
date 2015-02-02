@@ -5,13 +5,13 @@
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
 
-        <item >CPU</item>
-        <item >Sensors</item>
-        <item >Color Picker</item>
-        <item >Location</item>
-        <item >Compass</item>
-        <item >Device Info</item>
-        <item >Settings</item>
+        <item>CPU</item>
+        <item>传感器</item>
+        <item>颜色选择器</item>
+        <item>位置</item>
+        <item>指南针</item>
+        <item>设备信息</item>
+        <item>设置</item>
 
     </string-array>
 
@@ -27,28 +27,26 @@
         <item>@drawable/ic_settings</item>
     </array>
 
-    <string name="sensor_desc_1">Device acceleration (affected by the force of gravity).</string>
-    <string name="sensor_desc_2">Ambient magnetic field.</string>
-    <string name="sensor_desc_3">Compass like sensor.</string>
-    <string name="sensor_desc_4">Gyroscope.</string>
-    <string name="sensor_desc_5">Ambient light level in SI lux units.</string>
-    <string name="sensor_desc_6">Atmospheric pressure in hPa (millibar).</string>
-    <string name="sensor_desc_8">Distance sensor (in most devices, this only reports a near or far state).</string>
-    <string name="sensor_desc_9">A three dimensional vector indicating the direction and magnitude of gravity.</string>
-    <string name="sensor_desc_10">Acceleration without the effect of gravity.</string>
-    <string name="sensor_desc_11">The rotation vector represents the orientation of the device as a combination of an angle and an axis, in which the device has rotated through an angle θ around an axis [x, y, z].</string>
-    <string name="sensor_desc_12">Relative ambient air humidity in percent.</string>
-    <string name="sensor_desc_13">Ambient (room) temperature in degree Celsius.</string>
-    <string name="lbl_vendor">Vendor</string>
-    <string name="lbl_powerconsumption">Power consumption</string>
-    <string name="lbl_sensor_resolution">Sensor resolution</string>
-    <string name="lbl_sensor_version">Version</string>
-    <string name="lbl_min_delay">Minimal delay</string>
-    <string name="lbl_range">Range</string>
-    <string name="lbl_unknown">unknown</string>
-    <string name="msg_stopped">Sampling stopped</string>
-    <string name="share">Share</string>
-    <string name="send_to">Share with</string>
+    <string name="sensor_desc_1">设备加速度(受重力影响).</string>
+    <string name="sensor_desc_2">周围磁场。</string>
+    <string name="sensor_desc_3">方向传感器</string>
+    <string name="sensor_desc_4">陀螺仪</string>
+    <string name="sensor_desc_5">环境光强度SI单位勒克斯。</string>
+    <string name="sensor_desc_6">百帕大气压力（毫巴）。</string>
+    <string name="sensor_desc_8">距离传感器（在大多数的设备，这只是报告了或近或远的状态）。</string>
+    <string name="sensor_desc_9">三维矢量指示的方向和重力大小。</string>
+    <string name="sensor_desc_10">加速度没有重力的影响。</string>
+    <string name="sensor_desc_11">旋转矢量表示设备的作为角度和一个轴的组合，其中该设备已通过绕轴[X，Y，Z]旋转角度θ。</string>
+    <string name="sensor_desc_12">空气湿度百分比。</string>
+    <string name="sensor_desc_13">环境（室内）温度以摄氏度。</string>
+    <string name="lbl_vendor">厂商</string>
+    <string name="lbl_powerconsumption">耗电量</string>
+    <string name="lbl_sensor_version">版本</string>
+    <string name="lbl_min_delay">最小延迟</string>
+    <string name="lbl_range">范围</string>
+    <string name="lbl_unknown">未知</string>
+    <string name="msg_stopped">停止采样</string>
+    <string name="send_to">分享</string>
     <string name="unit_gyro">rad/s</string>
     <string name="unit_light">lux</string>
     <string name="unit_magnetic">µT</string>
@@ -56,29 +54,25 @@
     <string name="unit_distance">cm</string>
     <string name="unit_temperature">°C</string>
     <string name="unit_acceleration">m/s²</string>
-    <string name="sensor_accuracy_high">Sensor accuracy: HIGH</string>
-    <string name="sensor_accuracy_medium">Sensor accuracy: MEDIUM</string>
-    <string name="sensor_accuracy_low">Sensor accuracy: LOW</string>
-    <string name="sensor_accuracy_unreliable">Sensor accuracy: UNRELIABLE</string>
-    <string name="channel_light">Light</string>
-    <string name="channel_distance">Distance</string>
-    <string name="channel_pressure">Pressure</string>
-    <string name="channel_temperature">Ambient room temperature</string>
-    <string name="channel_x_axis">X-Axis</string>
-    <string name="channel_y_axis">Y-Axis</string>
-    <string name="channel_z_axis">Z-Axis</string>
-    <string name="channel_azimuth">Azimuth</string>
-    <string name="channel_pitch">Pitch</string>
-    <string name="channel_roll">Roll</string>
+    <string name="sensor_accuracy_high">传感器精度: 高</string>
+    <string name="sensor_accuracy_medium">传感器精度: 中等</string>
+    <string name="sensor_accuracy_low">传感器精度: 低</string>
+    <string name="sensor_accuracy_unreliable">传感器精度: 较差</string>
+    <string name="channel_light">光线</string>
+    <string name="channel_pressure">压力</string>
+    <string name="channel_x_axis">X-轴</string>
+    <string name="channel_y_axis">Y-轴</string>
+    <string name="channel_z_axis">Z-轴</string>
+    <string name="channel_roll">滚转</string>
     <string name="channel_default">Channel</string>
-    <string name="samplerate">Samplerate: 1/%1$d ms</string>
+    <string name="samplerate">采样率: 1/%1$d 毫秒</string>
     <string name="unit_consumption">" mA"</string>
     <string name="unit_mindelay">" µs"</string>
-    <string name="msg_waiting_for_sensor">Waiting for sensor to become ready</string>
+    <string name="msg_waiting_for_sensor">等待传感器准备就绪</string>
 
 
-    <string name="action_canceled">Action canceled</string>
-    <string name="select_picture">Select a option</string>
+    <string name="action_canceled">取消</string>
+    <string name="select_picture">选择一个选项</string>
     <string name="text_view_ral">RAL:</string>
     <string name="text_view_rgb">RGB:</string>
     <string name="text_view_hex">HEX:</string>
@@ -298,42 +292,40 @@
         <item>Papyrus white</item>
         <item>Pearl light grey</item>
     </string-array>
-    <string name="color_name">Color name</string>
+    <string name="color_name">颜色名称</string>
 
 
-    <string name="location_north">%s N</string>
-    <string name="location_south">%s S</string>
-    <string name="location_east">%s E</string>
-    <string name="location_west">%s W</string>
+    <string name="location_north">%s 北</string>
+    <string name="location_south">%s 南</string>
+    <string name="location_east">%s 东</string>
+    <string name="location_west">%s 西</string>
     <string name="title_section1">GPS</string>
     <string name="title_section3">Radio</string>
-    <string name="title_gps_lat">Latitude</string>
-    <string name="title_gps_lon">Longitude</string>
     <string name="title_gps_decl">Decl.</string>
-    <string name="title_gps_speed">Speed</string>
-    <string name="title_gps_alt">Elevation</string>
-    <string name="title_gps_time">Last Fix Obtained</string>
-    <string name="title_gps_bear">Bearing</string>
-    <string name="title_gps_orient">Orientation</string>
-    <string name="title_gps_acc">Error</string>
-    <string name="title_gps_sats">Satellites</string>
-    <string name="title_gps_ttff">TTFF (s)</string>
+    <string name="title_gps_speed">速度</string>
+    <string name="title_gps_alt">海拔</string>
+    <string name="title_gps_time">上次定位时间</string>
+    <string name="title_gps_bear">轴</string>
+    <string name="title_gps_orient">方向</string>
+    <string name="title_gps_acc">错误</string>
+    <string name="title_gps_sats">卫星数目</string>
+    <string name="title_gps_ttff">首次定位时间(s)</string>
     <string name="value_none">–</string>
-    <string name="value_N">N</string>
+    <string name="value_N">北</string>
     <string name="value_NNE">NNE</string>
-    <string name="value_NE">NE</string>
+    <string name="value_NE">东北</string>
     <string name="value_ENE">ENE</string>
-    <string name="value_E">E</string>
+    <string name="value_E">东</string>
     <string name="value_ESE">ESE</string>
-    <string name="value_SE">SE</string>
+    <string name="value_SE">东南</string>
     <string name="value_SSE">SSE</string>
-    <string name="value_S">S</string>
+    <string name="value_S">南</string>
     <string name="value_SSW">SSW</string>
-    <string name="value_SW">SW</string>
+    <string name="value_SW">西南</string>
     <string name="value_WSW">WSW</string>
-    <string name="value_W">W</string>
+    <string name="value_W">西</string>
     <string name="value_WNW">WNW</string>
-    <string name="value_NW">NW</string>
+    <string name="value_NW">西北</string>
     <string name="value_NNW">NNW</string>
 
     <string name="title_radio_gsm">GSM</string>
@@ -354,8 +346,8 @@
     <string name="unit_km_h">&#x00a0;km/h</string>
     <string name="unit_meter">&#x00a0;m</string>
 
-    <string name="getting_location">Getting location...</string>
-    <string name="cannot_get_location">Cannot get your location</string>
+    <string name="getting_location">正在获取位置...</string>
+    <string name="cannot_get_location">无法获取您的位置</string>
 
     <string name="keys12">no</string>
     <string name="dpad">no</string>
@@ -382,23 +374,31 @@
     <string name="large">no</string>
     <string name="xlarge">no</string>
     <string name="pref_screen">none</string>
-    <string name="Refresh">Refresh</string>
-    <string name="reset_timers">Reset Timers</string>
-    <string name="restore_timers">Restore Timers</string>
-    <string name="unknow_type">Unknown type</string>
-    <string name="to_user">Dear User, Location Tools requires GPS to be enabled and since GPS is very battery hungry,remember to turn it back off.Location and network tool is created as a different activity so that it does not interfere when using normal tools.</string>
-    <string name="themes">Themes</string>
-    <string name="settings_about">About</string>
-    <string name="contact_developer">Contact Developer</string>
-    <string name="settings_share">Share</string>
-    <string name="buy">Buy it on Google Play</string>
-    <string name="settings_about_s_tools">S Tools+ is completely free and Ad-Free.If you like then you can donate to me by purchasing the donate version from Google Play. I would really appreciate it.</string>
-    <string name="source_code">Source Code</string>
-    <string name="rate">Rate</string>
-    <string name="unused_cpu_states">Unused CPU states</string>
-    <string name="kernel_info">Kernel Info</string>
-    <string name="kernel">Kernel</string>
-    <string name="total_state_time">Total State Time</string>
+    <string name="channel_azimuth">方位</string>
+    <string name="channel_distance">距离</string>
+    <string name="channel_pitch">仰俯</string>
+    <string name="channel_temperature">环境室温</string>
+    <string name="lbl_sensor_resolution">传感器分辨率</string>
+    <string name="title_gps_lon">经度</string>
+    <string name="title_gps_lat">纬度</string>
+    <string name="share">分享</string>
+    <string name="Refresh">刷新</string>
+    <string name="reset_timers">复位定时器</string>
+    <string name="restore_timers">恢复定时器</string>
+    <string name="unknow_type">未知类型</string>
+    <string name="to_user">亲爱的用户, 定位工具需要开启GPS，但是GPS非常耗电,请及时关闭。定位和网络工具为不同Activity创建的，以便使用不会相互干扰。</string>
+    <string name="themes">主题</string>
+    <string name="settings_about">关于</string>
+    <string name="contact_developer">联系开发者</string>
+    <string name="settings_share">分享</string>
+    <string name="buy">在Google Play上购买</string>
+    <string name="settings_about_s_tools">S Tools+ 是一个完全免费并且没有广告的应用。如果你喜欢这个应用而且想捐赠，那么你可以下载在Google Play上下载捐赠版本，我会很感谢你。</string>
+    <string name="source_code">源代码</string>
+    <string name="rate">评分</string>
+    <string name="unused_cpu_states">未使用的CPU状态</string>
+    <string name="kernel_info">内核信息</string>
+    <string name="kernel">内核</string>
+    <string name="total_state_time">待机时间</string>
 
 </resources>
 
