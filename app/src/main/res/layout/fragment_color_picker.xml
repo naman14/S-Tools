@@ -46,9 +46,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginLeft="15dp"
             android:layout_alignBottom="@id/imageView"
-
             app:floatingActionButtonColor="@color/my_fab_color"
-
 
             android:src="@drawable/ic_action_copy"
             />
@@ -91,7 +89,7 @@
             android:paddingLeft="@dimen/color_padding"
             android:paddingRight="@dimen/color_padding"
             android:paddingTop="@dimen/five_dip" >
-            <!-- android:src="@drawable/ic_launcher" -->
+
 
             <ImageView
                 android:id="@+id/imageViewColor"

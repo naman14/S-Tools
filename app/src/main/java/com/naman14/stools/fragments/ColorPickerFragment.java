@@ -74,6 +74,8 @@ public class ColorPickerFragment extends Fragment {
         setHasOptionsMenu(true);
 
         final View v = inflater.inflate(R.layout.fragment_color_picker, container, false);
+
+        final TextView hex =(TextView) v.findViewById(R.id.textViewHex);
         FloatingActionButton fab = (FloatingActionButton)v.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,15 +99,18 @@ public class ColorPickerFragment extends Fragment {
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String hexString = hex.getText().toString();
+                //removing "HEX:" from the string returned by getText
+                hexString = hexString.replace("HEX:","");
                 ClipboardManager _clipboard=
                         (ClipboardManager)
                                 getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
 
 
                 ClipData clip=
-                        ClipData.newPlainText("colorName","ffffff");
+                        ClipData.newPlainText("hex",hexString );
                 _clipboard.setPrimaryClip(clip);
-                Toast.makeText(getActivity().getApplicationContext(), "HEX Code Copied to Clipboard", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity().getApplicationContext(), hex.getText() + " Copied to Clipboard", Toast.LENGTH_SHORT).show();
 
 
             }
