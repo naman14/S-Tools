@@ -20,11 +20,18 @@
     <color name="accUnreliable">#9933CC</color>
 
     <color name="theme1">@android:color/holo_blue_light</color>
-    <color name="theme2">#99cc00</color>
+    <color name="theme2">#9c27b0</color>
     <color name="theme3">#ff4444</color>
     <color name="theme4">#ff4081</color>
     <color name="theme5">#009688</color>
-    <color name="theme6">#00bbd2</color>
+    <color name="theme6">#607d8b</color>
+
+    <color name="theme1dark">@android:color/holo_blue_dark</color>
+    <color name="theme2dark">#8e24aa</color>
+    <color name="theme3dark">#e53935</color>
+    <color name="theme4dark">#e91e63</color>
+    <color name="theme5dark">#00897b</color>
+    <color name="theme6dark">#546e7a</color>
 
 
 </resources>

@@ -28,7 +28,7 @@
 
 
         <com.naman14.stools.CircleButton android:id="@+id/imageButton2"
-            app:cb_color="#99cc00"
+            app:cb_color="#9c27b0"
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
@@ -75,7 +75,7 @@
             />
 
         <com.naman14.stools.CircleButton android:id="@+id/imageButton6"
-            app:cb_color="#00bbd2"
+            app:cb_color="#607d8b"
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"

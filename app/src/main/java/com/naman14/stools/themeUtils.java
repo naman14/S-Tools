@@ -5,7 +5,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.support.v7.app.ActionBar;
+import android.view.Window;
+import android.view.WindowManager;
 
 
 public class themeUtils extends Activity
@@ -75,37 +78,65 @@ break;
 
 case THEME2:
 
-activity.setTheme(R.style.AppTheme2);
+
 actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme2));
 
-
+    if (Build.VERSION.SDK_INT>=21) {
+        Window window = activity.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(activity.getResources().getColor(R.color.theme2dark));
+    }
 break;
 
 
 case THEME3:
 
-    activity.setTheme(R.style.AppTheme3);
+
     actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme3));
+    if (Build.VERSION.SDK_INT>=21) {
+        Window window = activity.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(activity.getResources().getColor(R.color.theme3dark));
+    }
 
 break;
 
 case THEME4:
-    activity.setTheme(R.style.AppTheme4);
-    actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme4));
 
+    actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme4));
+    if (Build.VERSION.SDK_INT>=21) {
+        Window window = activity.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(activity.getResources().getColor(R.color.theme4dark));
+    }
 break;
 
 case THEME5:
 
-activity.setTheme(R.style.AppTheme5);
+
     actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme5));
+    if (Build.VERSION.SDK_INT>=21) {
+        Window window = activity.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(activity.getResources().getColor(R.color.theme5dark));
+    }
 break;
 
 
 case THEME6:
 
-activity.setTheme(R.style.AppTheme6);
+
     actionBar.setBackgroundDrawable(context.getResources().getDrawable(R.color.theme6));
+    if (Build.VERSION.SDK_INT>=21) {
+        Window window = activity.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(activity.getResources().getColor(R.color.theme6dark));
+    }
 break;
 
 

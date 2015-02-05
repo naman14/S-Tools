@@ -67,53 +67,5 @@
         <item name="android:background">?android:selectableItemBackground</item>
     </style>
 
-    <style name="AppTheme2" parent="@style/Theme.AppCompat.Light">
 
-
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="colorPrimary">@color/theme2</item>
-        <item name="colorPrimaryDark">#99cc00</item>
-        <item name="windowActionBar">false</item>
-        <item name="colorAccent">#009688</item>
-
-    </style>
-    <style name="AppTheme3" parent="@style/Theme.AppCompat.Light">
-
-
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="colorPrimary">@color/theme3</item>
-        <item name="colorPrimaryDark">#99cc00</item>
-        <item name="windowActionBar">false</item>
-        <item name="colorAccent">#009688</item>
-
-    </style>
-    <style name="AppTheme4" parent="@style/Theme.AppCompat.Light">
-
-
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="colorPrimary">@color/theme4</item>
-        <item name="colorPrimaryDark">#99cc00</item>
-        <item name="windowActionBar">false</item>
-        <item name="colorAccent">#009688</item>
-
-    </style>
-    <style name="AppTheme5" parent="@style/Theme.AppCompat.Light">
-
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="colorPrimary">@color/theme5</item>
-        <item name="colorPrimaryDark">#99cc00</item>
-        <item name="windowActionBar">false</item>
-        <item name="colorAccent">#009688</item>
-
-    </style>
-    <style name="AppTheme6" parent="@style/Theme.AppCompat.Light">
-
-
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="colorPrimary">@color/theme6</item>
-        <item name="colorPrimaryDark">#99cc00</item>
-        <item name="windowActionBar">false</item>
-        <item name="colorAccent">#009688</item>
-
-    </style>
 </resources>
