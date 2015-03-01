@@ -30,7 +30,7 @@
                 style="@style/CardTitle"
                 android:clickable="true"
                 android:id="@+id/text1"
-                android:text="Themes" />
+                android:text="@string/themes" />
 
         </FrameLayout>
 
@@ -46,7 +46,7 @@
                 style="@style/CardTitle"
                 android:id="@+id/text2"
                 android:clickable="true"
-                android:text="About" />
+                android:text="@string/settings_about" />
 
         </FrameLayout>
 
@@ -63,7 +63,7 @@
                 style="@style/CardTitle"
                 android:id="@+id/text3"
                 android:clickable="true"
-                android:text="Contact Developer" />
+                android:text="@string/contact_developer" />
 
         </FrameLayout>
 
@@ -87,7 +87,7 @@
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
 
-                    android:text="S Tools+ is completely free and Ad-Free.If you like then you can donate to me by purchasing the donate version from Google Play. I would really appreciate it."/>
+                    android:text="@string/settings_about_s_tools"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -102,7 +102,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
 
-                    android:text="Buy it on Google Play"/>
+                    android:text="@string/buy"/>
 
             </LinearLayout>
 
@@ -171,7 +171,7 @@
                         android:gravity="center"
                         android:layout_width="96dp"
                         android:layout_height="wrap_content"
-                        android:text="Source Code"
+                        android:text="@string/source_code"
                         android:textColor="#009688"
                         android:textSize="20sp"
 
@@ -181,7 +181,7 @@
                         android:gravity="center"
                         android:layout_width="96dp"
                         android:layout_height="wrap_content"
-                        android:text="Rate"
+                        android:text="@string/rate"
                         android:textColor="#009688"
                         android:textSize="20sp"
 
@@ -191,7 +191,7 @@
                         android:layout_width="96dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="Share"
+                        android:text="@string/settings_share"
                         android:gravity="center"
                         android:textColor="#009688"
                         android:textSize="20sp"

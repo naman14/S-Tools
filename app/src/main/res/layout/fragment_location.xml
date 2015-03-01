@@ -16,8 +16,7 @@
         android:paddingRight="23dp"
         android:layout_height="230dp"
         android:background="@android:color/holo_blue_light"
-        android:text="Dear User,
- Location Tools requires GPS to be enabled and since GPS is very battery hungry,remember to turn it back off.Location and network tool is created as a different activity so that it does not interfere when using normal tools."
+        android:text="@string/to_user"
         android:textColor="#f7f7f7"
         android:textSize="18sp"
         android:paddingTop="16dp"

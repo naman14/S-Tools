@@ -70,7 +70,7 @@
     <string name="channel_azimuth">Azimuth</string>
     <string name="channel_pitch">Pitch</string>
     <string name="channel_roll">Roll</string>
-    <string name="channel_default">Channel</string>
+    <string name="channel_default">Channel %1$d</string>
     <string name="samplerate">Samplerate: 1/%1$d ms</string>
     <string name="unit_consumption">" mA"</string>
     <string name="unit_mindelay">" µs"</string>
@@ -357,32 +357,7 @@
     <string name="getting_location">Getting location...</string>
     <string name="cannot_get_location">Cannot get your location</string>
 
-    <string name="keys12">no</string>
-    <string name="dpad">no</string>
-    <string name="finger">no</string>
-    <string name="keysexposed">no</string>
-    <string name="keysoft">no</string>
-    <string name="long_resource">no</string>
-    <string name="nokeys">no</string>
-    <string name="nonav">no</string>
-    <string name="notlong">no</string>
-    <string name="notouch">no</string>
-    <string name="qwerty">no</string>
-    <string name="stylus">no</string>
-    <string name="trackball">no</string>
-    <string name="wheel">no</string>
-    <string name="nodpi">no</string>
-    <string name="ldpi">no</string>
-    <string name="mdpi">no</string>
-    <string name="hdpi">no</string>
-    <string name="xhdpi">no</string>
-    <string name="pref_pdi">none</string>
-    <string name="small">no</string>
-    <string name="normal">no</string>
-    <string name="large">no</string>
-    <string name="xlarge">no</string>
-    <string name="pref_screen">none</string>
-    <string name="Refresh">Refresh</string>
+    <string name="refresh">Refresh</string>
     <string name="reset_timers">Reset Timers</string>
     <string name="restore_timers">Restore Timers</string>
     <string name="unknow_type">Unknown type</string>
@@ -392,7 +367,7 @@
     <string name="contact_developer">Contact Developer</string>
     <string name="settings_share">Share</string>
     <string name="buy">Buy it on Google Play</string>
-    <string name="settings_about_s_tools">S Tools+ is completely free and Ad-Free.If you like then you can donate to me by purchasing the donate version from Google Play. I would really appreciate it.</string>
+    <string name="settings_about_s_tools">S Tools+ is completely free and Ad-Free. If you like then you can donate to me by purchasing the donate version from Google Play. I would really appreciate it.</string>
     <string name="source_code">Source Code</string>
     <string name="rate">Rate</string>
     <string name="unused_cpu_states">Unused CPU states</string>
@@ -400,5 +375,50 @@
     <string name="kernel">Kernel</string>
     <string name="total_state_time">Total State Time</string>
 
+    <string name="about_developer">Developer</string>
+    <string name="about_follow">Follow me on Google+</string>
+    <string name="about_thanks">Thanks to these open source projects</string>
+    <string name="action_ok">Okay</string>
+    <string name="cpu_no_states">No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him that the states file is not readable.</string>
+    <string name="recommend_content">\nLet me recommend you this application for keeping track of your cpu,device sensors and much more\n\n</string>
+    <string name="recommend_choose">Choose one</string>
+    <string name="toast_clipboard">%1$s Copied to Clipboard</string>
+    <string name="cpu_deep_sleep">Deep Sleep</string>
+
+    <string name="report">Device information report:</string>
+
+    <string name="device">Device</string>
+    <string name="device_board">Board: %1$s</string>
+    <string name="device_brand">Brand: %1$s</string>
+    <string name="device_device">Device: %1$s</string>
+    <string name="device_model">Model: %1$s</string>
+    <string name="device_product">Product: %1$s</string>
+    <string name="device_tags">Tags: %1$s</string>
+
+    <string name="os">Operating System</string>
+    <string name="os_build">Build release: %1$s; %2$s</string>
+    <string name="os_build_display">Build: %1$s</string>
+    <string name="os_build_fingerprint">Fingerprint: %1$s</string>
+    <string name="os_build_id">Build ID: %1$s</string>
+    <string name="os_time">Time: %1$s</string>
+    <string name="os_type">Type: %1$s</string>
+    <string name="os_user">User: %1$s</string>
+
+    <string name="density">Density</string>
+    <string name="density_density">Density: %1$s</string>
+    <string name="density_dpi">Density DPI: %1$d</string>
+    <string name="density_scaled">Scaled Density: %1$s</string>
+    <string name="density_xdpi">xdpi: %1$s</string>
+    <string name="density_ydpi">ydpi: %1$s</string>
+
+    <string name="density_reference">Density reference:</string>
+    <string name="density_reference_default">Default: %1$d</string>
+    <string name="density_reference_low">Low: %1$d</string>
+    <string name="density_reference_medium">Medium: %1$d</string>
+    <string name="density_reference_high">High: %1$d</string>
+
+    <string name="screen">Screen</string>
+    <string name="screen_height">Height: %1$dpx</string>
+    <string name="screen_width">Width: %1$dpx</string>
 </resources>
 

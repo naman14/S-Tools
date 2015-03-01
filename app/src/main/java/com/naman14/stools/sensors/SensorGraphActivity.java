@@ -277,7 +277,7 @@ return true;
 		String[] channelNames = new String[event.values.length];
 		channel = new XYSeries[event.values.length];
 		for (int i = 0; i < channelNames.length; i++) {
-			channelNames[i] = getString(R.string.channel_default) + i;
+			channelNames[i] = String.format(getString(R.string.channel_default), i);
 		}
 
 		switch (event.sensor.getType()) {

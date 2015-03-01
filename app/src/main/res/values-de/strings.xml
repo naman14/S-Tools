@@ -1,0 +1,424 @@
+<resources>
+    <string name="app_name">S Tools+</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+
+        <item>CPU</item>
+        <item>Sensoren</item>
+        <item>Farbauswahl</item>
+        <item>Standort</item>
+        <item>Kompass</item>
+        <item>Geräteinformationen</item>
+        <item>Einstellungen</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_cpu</item>
+        <item>@drawable/ic_sensor</item>
+        <item>@drawable/ic_color</item>
+        <item>@drawable/ic_location</item>
+        <item>@drawable/ic_compass</item>
+        <item>@drawable/ic_device</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+
+    <string name="sensor_desc_1">Beschleunigung (durch die Gravitation beeinflusst).</string>
+    <string name="sensor_desc_2">Umgebungsmagnetsensor.</string>
+    <string name="sensor_desc_3">Kompasssensor.</string>
+    <string name="sensor_desc_4">Gyroskop.</string>
+    <string name="sensor_desc_5">Umgebungslicht in lux.</string>
+    <string name="sensor_desc_6">Luftdruck in hPa (Millibar).</string>
+    <string name="sensor_desc_8">Abstandssensor (die meisten Geräte geben nur nah oder fern zurück).</string>
+    <string name="sensor_desc_9">Ein dreidimensionaler Vektor, der die Richtung und Stärke der Gravität misst.</string>
+    <string name="sensor_desc_10">Beschleunigung ohne Berücksichtigung der Gravitation.</string>
+    <string name="sensor_desc_11">Der Rotationsvektor repräsentiert die Lage des Gerätes als Kombination von einem Winkel und einer Achse, da sich das Gerät in einem Winkel θ um die Achse [x, y, z] bewegt.</string>
+    <string name="sensor_desc_12">Relative Luftfeuchtigkeit im Prozent.</string>
+    <string name="sensor_desc_13">Raumtemperatur in Grad Celsius.</string>
+    <string name="lbl_vendor">Hersteller</string>
+    <string name="lbl_powerconsumption">Stromverbrauch</string>
+    <string name="lbl_sensor_resolution">Auflösung des Sensors</string>
+    <string name="lbl_sensor_version">Version</string>
+    <string name="lbl_min_delay">Minimale Verzögerung</string>
+    <string name="lbl_range">Bandbreite</string>
+    <string name="lbl_unknown">unbekannt</string>
+    <string name="msg_stopped">Messung beendet</string>
+    <string name="share">Teilen</string>
+    <string name="send_to">Teilen mit</string>
+    <string name="unit_gyro">rad/s</string>
+    <string name="unit_light">lux</string>
+    <string name="unit_magnetic">µT</string>
+    <string name="unit_pressure">hPa</string>
+    <string name="unit_distance">cm</string>
+    <string name="unit_temperature">°C</string>
+    <string name="unit_acceleration">m/s²</string>
+    <string name="sensor_accuracy_high">Sensorgenauigkeit: HOCH</string>
+    <string name="sensor_accuracy_medium">Sensorgenauigkeit: MITTEL</string>
+    <string name="sensor_accuracy_low">Sensorgenauigkeit: NIEDRIG</string>
+    <string name="sensor_accuracy_unreliable">Sensorgenauigkeit: UNZUVERLÄSSIG</string>
+    <string name="channel_light">Licht</string>
+    <string name="channel_distance">Abstand</string>
+    <string name="channel_pressure">Druck</string>
+    <string name="channel_temperature">Umgebungstemperatur</string>
+    <string name="channel_x_axis">X-Achse</string>
+    <string name="channel_y_axis">Y-Achse</string>
+    <string name="channel_z_axis">Z-Achse</string>
+    <string name="channel_azimuth">Gier-Winkel</string>
+    <string name="channel_pitch">Nick-Winkel</string>
+    <string name="channel_roll">Roll-Winkel</string>
+    <string name="channel_default">Kanal %1$d</string>
+    <string name="samplerate">Abtastrate: 1/%1$d ms</string>
+    <string name="unit_consumption">" mA"</string>
+    <string name="unit_mindelay">" µs"</string>
+    <string name="msg_waiting_for_sensor">Der Sensor ist noch nicht bereit</string>
+
+
+    <string name="action_canceled">Aktion wurde abgebrochen</string>
+    <string name="select_picture">Bitte wähle eine Aktion aus</string>
+    <string name="text_view_ral">RAL:</string>
+    <string name="text_view_rgb">RGB:</string>
+    <string name="text_view_hex">HEX:</string>
+    <string name="s">HEX:</string>
+    <string name="result_color">Farbe</string>
+    <string-array name="color_names">
+        <item>Grünbeige</item>
+        <item>Beige</item>
+        <item>Sandgelb</item>
+        <item>Signalgelb</item>
+        <item>Goldgelb</item>
+        <item>Honiggelb</item>
+        <item>Maisgelb</item>
+        <item>Narzissengelb</item>
+        <item>Braunbeige</item>
+        <item>Zitronengelb</item>
+        <item>Perlweiß</item>
+        <item>Elfenbein</item>
+        <item>Hellelfenbein</item>
+        <item>Schwefelgelb</item>
+        <item>Safrangelb</item>
+        <item>Zinkgelb</item>
+        <item>Graubeige</item>
+        <item>Olivgelb</item>
+        <item>Rapsgelb</item>
+        <item>Verkehrsgelb</item>
+        <item>Ockergelb</item>
+        <item>Leuchtgelb</item>
+        <item>Currygelb</item>
+        <item>Melonengelb</item>
+        <item>Ginstergelb</item>
+        <item>Dahliengelb</item>
+        <item>Pastellgelb</item>
+        <item>Perlbeige</item>
+        <item>Perlgold</item>
+        <item>Sonnengelb</item>
+        <item>Gelborange</item>
+        <item>Rotorange</item>
+        <item>Blutorange</item>
+        <item>Pastellorange</item>
+        <item>Reinorange</item>
+        <item>Leuchtorange</item>
+        <item>Leuchthellorange</item>
+        <item>Hellrotorange</item>
+        <item>Verkehrsorange</item>
+        <item>Signalorange</item>
+        <item>Tieforange</item>
+        <item>Lachsorange</item>
+        <item>Perlorange</item>
+        <item>Feuerrot</item>
+        <item>Signalrot</item>
+        <item>Karminrot</item>
+        <item>Rubinrot</item>
+        <item>Purpurrot</item>
+        <item>Weinrot</item>
+        <item>Schwarzrot</item>
+        <item>Oxidrot</item>
+        <item>Braunrot</item>
+        <item>Beigerot</item>
+        <item>Tomatenrot</item>
+        <item>Altrosa</item>
+        <item>Hellrosa</item>
+        <item>Korallenrot</item>
+        <item>Rosé</item>
+        <item>Erdbeerrot</item>
+        <item>Verkehrsrot</item>
+        <item>Lachsrot</item>
+        <item>Leuchtrot</item>
+        <item>Leuchthellrot</item>
+        <item>Himbeerrot</item>
+        <item>Reinrot</item>
+        <item>Orientrot</item>
+        <item>Perlrubinrot</item>
+        <item>Perlrosa</item>
+        <item>Rotlila</item>
+        <item>Rotviolett</item>
+        <item>Erikaviolett</item>
+        <item>Bordeauxviolett</item>
+        <item>Blaulila</item>
+        <item>Verkehrspurpur</item>
+        <item>Purpurviolett</item>
+        <item>Signalviolett</item>
+        <item>Pastellviolett</item>
+        <item>Telemagenta</item>
+        <item>Perlviolett</item>
+        <item>Perlbrombeer</item>
+        <item>Violettblau</item>
+        <item>Grünblau</item>
+        <item>Ultramarinblau</item>
+        <item>Saphirblau</item>
+        <item>Schwarzblau</item>
+        <item>Signalblau</item>
+        <item>Brillantblau</item>
+        <item>Graublau</item>
+        <item>Azurblau</item>
+        <item>Enzianblau</item>
+        <item>Stahlblau</item>
+        <item>Lichtblau</item>
+        <item>Kobaltblau</item>
+        <item>Taubenblau</item>
+        <item>Himmelblau</item>
+        <item>Verkehrsblau</item>
+        <item>Türkisblau</item>
+        <item>Capriblau</item>
+        <item>Ozeanblau</item>
+        <item>Wasserblau</item>
+        <item>Nachtblau</item>
+        <item>Fernblau</item>
+        <item>Pastellblau</item>
+        <item>Perlenzian</item>
+        <item>Perlnachtblau</item>
+        <item>Patinagrün</item>
+        <item>Smaragdgrün</item>
+        <item>Laubgrün</item>
+        <item>Olivgrün</item>
+        <item>Blaugrün</item>
+        <item>Moosgrün</item>
+        <item>Grauoliv</item>
+        <item>Flaschengrün</item>
+        <item>Braungrün</item>
+        <item>Tannengrün</item>
+        <item>Grasgrün</item>
+        <item>Resedagrün</item>
+        <item>Schwarzgrün</item>
+        <item>Schilfgrün</item>
+        <item>Gelboliv</item>
+        <item>Schwarzoliv</item>
+        <item>Türkisgrün</item>
+        <item>Maigrün</item>
+        <item>Gelbgrün</item>
+        <item>Weißgrün</item>
+        <item>Chromoxidgrün</item>
+        <item>Blassgrün</item>
+        <item>Braunoliv</item>
+        <item>Verkehrsgrün</item>
+        <item>Farngrün</item>
+        <item>Opalgrün</item>
+        <item>Lichtgrün</item>
+        <item>Kieferngrün</item>
+        <item>Minzgrün</item>
+        <item>Signalgrün</item>
+        <item>Minttürkis</item>
+        <item>Pastelltürkis</item>
+        <item>Perlgrün</item>
+        <item>Perlopalgrün</item>
+        <item>Reingrün</item>
+        <item>Leuchtgrün</item>
+        <item>Fehgrau</item>
+        <item>Silbergrau</item>
+        <item>Olivgrau</item>
+        <item>Moosgrau</item>
+        <item>Signalgrau</item>
+        <item>Mausgrau</item>
+        <item>Beigegrau</item>
+        <item>Khakigrau</item>
+        <item>Grüngrau</item>
+        <item>Zeltgrau</item>
+        <item>Eisengrau</item>
+        <item>Basaltgrau</item>
+        <item>Braungrau</item>
+        <item>Schiefergrau</item>
+        <item>Anthrazitgrau</item>
+        <item>Schwarzgrau</item>
+        <item>Umbragrau</item>
+        <item>Betongrau</item>
+        <item>Graphitgrau</item>
+        <item>Granitgrau</item>
+        <item>Steingrau</item>
+        <item>Blaugrau</item>
+        <item>Kieselgrau</item>
+        <item>Zementgrau</item>
+        <item>Gelbgrau</item>
+        <item>Lichtgrau</item>
+        <item>Platingrau</item>
+        <item>Staubgrau</item>
+        <item>Achatgrau</item>
+        <item>Quarzgrau</item>
+        <item>Fenstergrau</item>
+        <item>Verkehrsgrau A</item>
+        <item>Verkehrsgrau B</item>
+        <item>Seidengrau</item>
+        <item>Telegrau 1</item>
+        <item>Telegrau 2</item>
+        <item>Telegrau 4</item>
+        <item>Perlmausgrau</item>
+        <item>Grünbraun</item>
+        <item>Ockerbraun</item>
+        <item>Signalbraun</item>
+        <item>Lehmbraun</item>
+        <item>Kupferbraun</item>
+        <item>Rehbraun</item>
+        <item>Olivbraun</item>
+        <item>Nussbraun</item>
+        <item>Rotbraun</item>
+        <item>Sepiabraun</item>
+        <item>Kastanienbraun</item>
+        <item>Mahagonibraun</item>
+        <item>Schokoladenbraun</item>
+        <item>Graubraun</item>
+        <item>Schwarzbraun</item>
+        <item>Orangebraun</item>
+        <item>Beigebraun</item>
+        <item>Blassbraun</item>
+        <item>Terrabraun</item>
+        <item>Perlkupfer</item>
+        <item>Cremeweiß</item>
+        <item>Grauweiß</item>
+        <item>Signalweiß</item>
+        <item>Signalschwarz</item>
+        <item>Tiefschwarz</item>
+        <item>Weißaluminium</item>
+        <item>Graualuminium</item>
+        <item>Reinweiß</item>
+        <item>Graphitschwarz</item>
+        <item>Verkehrsweiß</item>
+        <item>Verkehrsschwarz</item>
+        <item>Papyrusweiß</item>
+        <item>Perldunkelgrau</item>
+    </string-array>
+    <string name="color_name">Farbname</string>
+
+
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s O</string>
+    <string name="location_west">%s W</string>
+    <string name="title_section1">GPS</string>
+    <string name="title_section3">Mobilfunk</string>
+    <string name="title_gps_lat">Breitengrad</string>
+    <string name="title_gps_lon">Längengrad</string>
+    <string name="title_gps_decl">Decl.</string>
+    <string name="title_gps_speed">Geschwindigkeit</string>
+    <string name="title_gps_alt">Höhe</string>
+    <string name="title_gps_time">Letzter GPS-Fix</string>
+    <string name="title_gps_bear">Lage</string>
+    <string name="title_gps_orient">Orientierung</string>
+    <string name="title_gps_acc">Fehler</string>
+    <string name="title_gps_sats">Satelliten</string>
+    <string name="title_gps_ttff">TTFF (s)</string>
+    <string name="value_none">–</string>
+    <string name="value_N">N</string>
+    <string name="value_NNE">NNO</string>
+    <string name="value_NE">NO</string>
+    <string name="value_ENE">ONO</string>
+    <string name="value_E">O</string>
+    <string name="value_ESE">OSO</string>
+    <string name="value_SE">SO</string>
+    <string name="value_SSE">SSO</string>
+    <string name="value_S">S</string>
+    <string name="value_SSW">SSW</string>
+    <string name="value_SW">SW</string>
+    <string name="value_WSW">WSW</string>
+    <string name="value_W">W</string>
+    <string name="value_WNW">WNW</string>
+    <string name="value_NW">NW</string>
+    <string name="value_NNW">NNW</string>
+
+    <string name="title_radio_gsm">GSM</string>
+    <string name="title_radio_mcc">MCC</string>
+    <string name="title_radio_mnc">MNC</string>
+    <string name="title_radio_cellid">Zelle</string>
+    <string name="title_radio_lac">LAC</string>
+    <string name="title_radio_asu">ASU</string>
+    <string name="title_radio_cdma">CDMA</string>
+    <string name="title_radio_sid">SID</string>
+    <string name="title_radio_nid">NID</string>
+    <string name="title_radio_bsid">BSID</string>
+    <string name="title_radio_wifi">WLan</string>
+    <string name="title_radio_mac">BSSID (MAC)</string>
+    <string name="title_radio_channel">Kanal</string>
+    <string name="title_radio_level">dBm</string>
+    <string name="unit_degree">°</string>
+    <string name="unit_km_h">&#x00a0;km/h</string>
+    <string name="unit_meter">&#x00a0;m</string>
+
+    <string name="getting_location">Position wird bestimmt...</string>
+    <string name="cannot_get_location">Position konnte nicht bestimmt werden</string>
+
+    <string name="refresh">Aktualisieren</string>
+    <string name="reset_timers">Timer zurücksetzen</string>
+    <string name="restore_timers">Timer wiederherstellen</string>
+    <string name="unknow_type">Unbekannter Type</string>
+    <string name="to_user">Sehr geehrter Nutzer, die Standort-Werkzeuge benötigen die Aktivierung von GPS. Da die GPS-Nutzung Ihren Akku sehr stark belastet, schalten Sie GPS bitte nach der Nutzung wieder aus. Das Standort und Netzwerk-Werkzeug sind zwei getrennte Aktivitäten, sodass sich dies nicht gegenseitig behindern.</string>
+    <string name="themes">Designs</string>
+    <string name="settings_about">Über uns</string>
+    <string name="contact_developer">Entwickler kontaktieren</string>
+    <string name="settings_share">Teilen</string>
+    <string name="buy">Bei Google Play kaufen</string>
+    <string name="settings_about_s_tools">S Tools+ ist kostenlos und werbefrei. Wenn Sie möchten, können Sie den Hauptentwickler über den Kauf der Spendenversion bei Google Play unterstützen.</string>
+    <string name="source_code">Quellcode</string>
+    <string name="rate">Bewerten</string>
+    <string name="unused_cpu_states">Ungenutzte CPU-Zustände</string>
+    <string name="kernel_info">Kernel-Informationen</string>
+    <string name="kernel">Kernel</string>
+    <string name="total_state_time">Gesamte CPU-Zeit</string>
+
+    <string name="about_developer">Entwickler</string>
+    <string name="about_follow">Bei Google+ folgen</string>
+    <string name="about_thanks">Vielen Dank an diese Open-Source-Projekte:</string>
+    <string name="action_ok">Okay</string>
+    <string name="cpu_no_states">Keine Zustandsdatei gefunden. Sind Sie sicher, dass ihr Mobiltelefon kompatibel ist?\n\nWenn Sie ein Custom-ROM oder einen besonderen Kernel benutzen, kontaktieren Sie bitte deren Entwickler, dass die CPU-Zustandsdatei nicht lesbar ist.</string>
+    <string name="recommend_content">\nIch empfehle dir diese Anwendung, um die Übersicht über CPU-Daten, Gerätesensoren und vieles mehr zu bewahren: \n\n</string>
+    <string name="recommend_choose">Wähle aus</string>
+    <string name="toast_clipboard">%1$s in die Zwischenablage kopiert</string>
+    <string name="cpu_deep_sleep">Tiefschlaf</string>
+
+    <string name="report">Geräteinformationen:</string>
+
+    <string name="device">Gerät</string>
+    <string name="device_board">Board: %1$s</string>
+    <string name="device_brand">Marke: %1$s</string>
+    <string name="device_device">Gerät: %1$s</string>
+    <string name="device_model">Modell: %1$s</string>
+    <string name="device_product">Produkt: %1$s</string>
+    <string name="device_tags">Tags: %1$s</string>
+
+    <string name="os">Betriebssystem</string>
+    <string name="os_build">Build: %1$s; %2$s</string>
+    <string name="os_build_display">Build-String: %1$s</string>
+    <string name="os_build_fingerprint">Fingerabdruck: %1$s</string>
+    <string name="os_build_id">Build-Nummer: %1$s</string>
+    <string name="os_time">Zeit: %1$s</string>
+    <string name="os_type">Typ: %1$s</string>
+    <string name="os_user">Benutzer: %1$s</string>
+
+    <string name="density">Pixeldichte</string>
+    <string name="density_density">Pixeldichte: %1$s</string>
+    <string name="density_dpi">Pixeldichte: %1$d DPI</string>
+    <string name="density_scaled">Skaliserte Pixeldichte: %1$s</string>
+    <string name="density_xdpi">Bildschirmbreite (Pixel pro Inch): %1$s</string>
+    <string name="density_ydpi">Bildschirmhöhe (Pixel pro Inch): %1$s</string>
+
+    <string name="density_reference">Pixeldichtenreferenzen:</string>
+    <string name="density_reference_default">Standard: %1$d</string>
+    <string name="density_reference_low">Niedrig: %1$d</string>
+    <string name="density_reference_medium">Mittel: %1$d</string>
+    <string name="density_reference_high">Hoch: %1$d</string>
+
+    <string name="screen">Bildschirm</string>
+    <string name="screen_height">Höhe: %1$dpx</string>
+    <string name="screen_width">Breite: %1$dpx</string>
+</resources>
+

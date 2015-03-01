@@ -127,10 +127,10 @@ public class SettingsFragment extends Fragment {
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("text/plain");
                 i.putExtra(Intent.EXTRA_SUBJECT, "S Tools+");
-                String sAux = "\nLet me recommend you this application for keeping track of your cpu,device sensors and much more\n\n";
+                String sAux = getActivity().getString(R.string.recommend_content);
                 sAux = sAux + "https://play.google.com/store/apps/details?id=com.naman14.stools \n\n";
                 i.putExtra(Intent.EXTRA_TEXT, sAux);
-                startActivity(Intent.createChooser(i, "Choose one"));
+                startActivity(Intent.createChooser(i, getActivity().getString(R.string.recommend_choose)));
             }
         });
         TextView donate =(TextView) v.findViewById(R.id.donate);

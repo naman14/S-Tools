@@ -42,7 +42,7 @@
         android:layout_toRightOf="@+id/sensor_icon"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Unknown type"
+        android:text="@string/unknow_type"
         android:layout_marginLeft="12dp"
         android:layout_marginBottom="8dp"/>
 </RelativeLayout>

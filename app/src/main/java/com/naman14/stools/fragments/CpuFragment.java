@@ -137,7 +137,7 @@ public class CpuFragment extends Fragment {
                 generateStateRow(state, _uiStatesView);
             } else {
                 if (state.freq == 0) {
-                    extraStates.add("Deep Sleep");
+                    extraStates.add(getActivity().getString(R.string.cpu_deep_sleep));
                 } else {
                     extraStates.add(state.freq/1000 + " MHz");
                 }
@@ -222,7 +222,7 @@ public class CpuFragment extends Fragment {
 
         String sFreq;
         if (state.freq == 0) {
-            sFreq = "Deep Sleep";
+            sFreq = getActivity().getString(R.string.cpu_deep_sleep);
         } else {
             sFreq = state.freq / 1000 + " MHz";
         }

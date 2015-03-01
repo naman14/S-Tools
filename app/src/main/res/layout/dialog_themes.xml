@@ -23,7 +23,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
 
@@ -32,7 +32,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
         <com.naman14.stools.CircleButton android:id="@+id/imageButton3"
@@ -40,7 +40,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
     </LinearLayout>
@@ -62,7 +62,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
 
@@ -71,7 +71,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
         <com.naman14.stools.CircleButton android:id="@+id/imageButton6"
@@ -79,7 +79,7 @@
             app:cb_pressed_ring_width="8dip"
             android:layout_width="84dip"
             android:layout_height="84dip"
-            android:text="Okay"
+            android:text="@string/action_ok"
             />
 
     </LinearLayout>
