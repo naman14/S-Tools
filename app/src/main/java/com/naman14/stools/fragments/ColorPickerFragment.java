@@ -108,9 +108,9 @@ public class ColorPickerFragment extends Fragment {
 
 
                 ClipData clip=
-                        ClipData.newPlainText("hex",hexString );
+                        ClipData.newPlainText("hex", hexString);
                 _clipboard.setPrimaryClip(clip);
-                Toast.makeText(getActivity().getApplicationContext(), hex.getText() + " Copied to Clipboard", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity().getApplicationContext(), String.format(getActivity().getString(R.string.toast_clipboard), hex.getText()), Toast.LENGTH_SHORT).show();
 
 
             }

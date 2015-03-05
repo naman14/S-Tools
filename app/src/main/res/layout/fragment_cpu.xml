@@ -40,7 +40,7 @@
                 android:textColor="#dab849"
                 android:textSize="20dp"
                 android:background="#551111"
-                android:text="No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him that the states file is not readable."
+                android:text="@string/cpu_no_states"
                 android:visibility="gone"
                 android:id="@+id/ui_states_warning"
                 />
@@ -52,7 +52,7 @@
                 android:textSize="24sp"
                 android:visibility="gone"
                 android:textColor="#eceef7"
-                android:text="Unused CPU states"
+                android:text="@string/unused_cpu_states"
                 />
 
             <TextView
@@ -67,7 +67,7 @@
                 android:id="@+id/ui_header_total_state_time"
                 style="@style/infoHeader"
                 android:textColor="#eceef7"
-                android:text="Total State Time"
+                android:text="@string/total_state_time"
                 android:gravity="center_horizontal"
                 android:textSize="24sp"
                 />
@@ -88,7 +88,7 @@
 
             <TextView
                 style="@style/infoHeader"
-                android:text="Kernel  Info"
+                android:text="@string/kernel_info"
                 android:gravity="center_horizontal"
                 android:textSize="25sp"
                 android:textColor="#eceef7"
@@ -99,7 +99,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Kernel"
+                android:text="@string/kernel"
                 android:textSize="19dp"
                 android:paddingLeft="11dp"
                 android:paddingRight="11dp"

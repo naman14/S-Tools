@@ -16,7 +16,7 @@
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
 
-        android:text="Developer- "/>
+        android:text="@string/about_developer"/>
     <TextView
         android:layout_width="match_parent"
         android:textSize="18sp"
@@ -34,7 +34,7 @@
         android:paddingTop="8dp"
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
-        android:text="Follow me on Google+"/>
+        android:text="@string/about_follow"/>
     <TextView
         android:layout_width="match_parent"
         android:textColor="@android:color/holo_blue_light"
@@ -44,7 +44,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="18dp"
-        android:text="Thanks to these open source projects-"/>
+        android:text="@string/about_thanks"/>
     <TextView
         android:layout_width="match_parent"
         android:textSize="16sp"
@@ -52,7 +52,7 @@
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
 
-        android:text="CpuSpy-Brandon Valosek \n SatStat-mvglasow \n Floating Action Button "/>
+        android:text="CpuSpy - Brandon Valosek \n SatStat - mvglasow \n Floating Action Button "/>
 
 
 </LinearLayout>

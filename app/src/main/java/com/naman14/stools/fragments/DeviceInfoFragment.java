@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.app.Activity;
 
 import com.naman14.stools.R;
 
@@ -29,49 +30,57 @@ public class DeviceInfoFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         View rootView = inflater.inflate(R.layout.fragment_deviceinfo, container, false);
+        Activity activity = getActivity();
 
         mLayout = (LinearLayout)rootView.findViewById(R.id.layout);
-        mReport = "Device information report:\n";
+        mReport = activity.getString(R.string.report) + "\n";
 
 
-        setTextOfLabel(true, "** Device:");
-        setTextOfLabel(false, "Board: "+android.os.Build.BOARD);
-        setTextOfLabel(false, "Brand: "+android.os.Build.BRAND);
-        setTextOfLabel(false, "Device: "+android.os.Build.DEVICE);
-        setTextOfLabel(false, "Model: "+android.os.Build.MODEL);
-        setTextOfLabel(false, "Product: "+android.os.Build.PRODUCT);
-        setTextOfLabel(false, "TAGS: "+android.os.Build.TAGS);
+        setTextOfLabel(true, "\n" + activity.getString(R.string.device));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_board), android.os.Build.BOARD));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_brand), android.os.Build.BRAND));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_device), android.os.Build.DEVICE));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_model), android.os.Build.MODEL));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_product), android.os.Build.PRODUCT));
+        setTextOfLabel(false, String.format(activity.getString(R.string.device_tags), android.os.Build.TAGS));
 
-        setTextOfLabel(true, "** OS:");
-        setTextOfLabel(false, "Build release "+android.os.Build.VERSION.RELEASE + ", Inc: '"+android.os.Build.VERSION.INCREMENTAL+"'");
-        setTextOfLabel(false, "Display build: "+android.os.Build.DISPLAY);
-        setTextOfLabel(false, "Finger print: "+android.os.Build.FINGERPRINT);
-        setTextOfLabel(false, "Build ID: "+android.os.Build.ID);
-        setTextOfLabel(false, "Time: "+android.os.Build.TIME);
-        setTextOfLabel(false, "Type: "+android.os.Build.TYPE);
-        setTextOfLabel(false, "User: "+android.os.Build.USER);
+        setTextOfLabel(true, "\n" + activity.getString(R.string.os));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_build), android.os.Build.VERSION.RELEASE, android.os.Build.VERSION.INCREMENTAL));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_build_display), android.os.Build.DISPLAY));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_build_fingerprint), android.os.Build.FINGERPRINT));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_build_id), android.os.Build.ID));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_time), android.os.Build.TIME));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_type), android.os.Build.TYPE));
+        setTextOfLabel(false, String.format(activity.getString(R.string.os_user), android.os.Build.USER));
 
-        setTextOfLabel(true, "** Density:");
+        setTextOfLabel(true, "\n" + activity.getString(R.string.density));
         DisplayMetrics metrics = new DisplayMetrics();
         getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
-        setTextOfLabel(false, "density: "+metrics.density);
-        setTextOfLabel(false, "densityDpi: "+metrics.densityDpi);
-        setTextOfLabel(false, "scaledDensity: "+metrics.scaledDensity);
-        setTextOfLabel(false, "xdpi: "+metrics.xdpi);
-        setTextOfLabel(false, "ydpi: "+metrics.ydpi);
-        setTextOfLabel(true, "** Density reference:");
-        setTextOfLabel(false, "DENSITY_DEFAULT: "+DisplayMetrics.DENSITY_DEFAULT);
-        setTextOfLabel(false, "DENSITY_LOW: "+DisplayMetrics.DENSITY_LOW);
-        setTextOfLabel(false, "DENSITY_MEDIUM: "+DisplayMetrics.DENSITY_MEDIUM);
-        setTextOfLabel(false, "DENSITY_HIGH: "+DisplayMetrics.DENSITY_HIGH);
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_density), metrics.density));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_dpi), metrics.densityDpi));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_scaled), metrics.scaledDensity));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_xdpi), metrics.xdpi));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_ydpi), metrics.ydpi));
+        setTextOfLabel(true, "\n" + activity.getString(R.string.density_reference));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_reference_default), DisplayMetrics.DENSITY_DEFAULT));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_reference_low), DisplayMetrics.DENSITY_LOW));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_reference_medium), DisplayMetrics.DENSITY_MEDIUM));
+        setTextOfLabel(false, String.format(activity.getString(R.string.density_reference_high), DisplayMetrics.DENSITY_HIGH));
 
-        setTextOfLabel(true, "** Screen:");
-        setTextOfLabel(false, "heightPixels: "+metrics.heightPixels);
-        setTextOfLabel(false, "widthPixels: "+metrics.widthPixels);
+        setTextOfLabel(true, "\n" + activity.getString(R.string.screen));
+        setTextOfLabel(false, String.format(activity.getString(R.string.screen_height), metrics.heightPixels));
+        setTextOfLabel(false, String.format(activity.getString(R.string.screen_width), metrics.widthPixels));
 
 
+	/*
+	@todo This code does not provides any benefits. The strings are currently undefined.
+	In case this should provide the chosen resources, please note, that the strings should be translatable,
+	which increases the amount of required resource directories.
+	
+	Some of these values are unnecessary:
+	@see http://stackoverflow.com/questions/3166501/getting-the-screen-density-programmatically-in-android
+	
         setTextOfLabel(true, "** Resources:");
         setTextOfResource("values-nokeys", R.string.nokeys);
         setTextOfResource("values-12key", R.string.keys12);
@@ -102,6 +111,7 @@ public class DeviceInfoFragment extends Fragment {
 
         setTextOfResource("values-keysexposed", R.string.keysexposed);
         setTextOfResource("values-keyssoft", R.string.keysoft);
+        */
 
         return rootView;
 

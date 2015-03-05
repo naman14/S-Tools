@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
    <item android:id="@+id/menu_refresh"
-         android:title="Refresh"
+         android:title="@string/refresh"
 
    />
    
    <item android:id="@+id/menu_reset"
-         android:title="Reset Timers"
+         android:title="@string/reset_timers"
 
    />
    
    <item android:id="@+id/menu_restore"
-         android:title="Restore Timers"
+         android:title="@string/restore_timers"
 
    />
          
