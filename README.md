@@ -1,5 +1,5 @@
 S Tools+
-=================
+========
 Keep track of your CPU and Sensors alongwith useful features like Color Picker,Compass and device information.
 
 S Tools+ includes 6 different useful tools.These are-
@@ -14,20 +14,24 @@ S Tools+ includes 6 different useful tools.These are-
 
 •Device Information - Find out information about your device like screen density and pixels.
 
+Download
+========
 
-Google Play Link
-=================
-https://play.google.com/store/apps/details?id=com.naman14.stools
+<a href="https://play.google.com/store/apps/details?id=com.naman14.stools" target="_blank">
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80"/></a>
+
+<a href="https://f-droid.org/packages/com.naman14.stools/" target="_blank">
+<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
 
 Sceenshots
-=================
+==========
 <img src="https://raw.githubusercontent.com/naman14/S-Tools/master/graphics/nexus5_1upsensor.png" alt="alt text" width="400" height="600">
 <img src="https://raw.githubusercontent.com/naman14/S-Tools/master/graphics/nexus5_1uptestcolor.png" alt="alt text" width="400" height="600">
 <img src="https://raw.githubusercontent.com/naman14/S-Tools/master/graphics/nexus5_1upgraph.png" alt="alt text" width="400" height="600">
 <img src="https://raw.githubusercontent.com/naman14/S-Tools/master/graphics/nexus5_1upgps.png" alt="alt text" width="400" height="600">
 
 License
-===============
+=======
 >(c) 2015 Naman Dwivedi
 
 >S Tools+ is free software: you can redistribute it and/or modify it under the
@@ -41,5 +45,3 @@ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 >You should have received a copy of the GNU General Public License along
 with S Tools+.  If not, see <http://www.gnu.org/licenses/>.
-
-
